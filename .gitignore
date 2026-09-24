@@ -1,3 +1,2 @@
 # Ocultar as pastas de dados do SUS para o Git ficar "cego" para elas
-dados_brutos_dbc/
-dados_processados_csv/
+/data

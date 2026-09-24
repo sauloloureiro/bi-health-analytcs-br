@@ -6,8 +6,8 @@ import pandas as pd
 # ⚙️ CONFIGURAÇÕES DO PIPELINE
 ESTADO_FOCO = "RO"  # Sigla do estado para o filtro (Ex: RO para Rondônia)
 ANOS_FOCO = ["24", "25"]  # Foco nos anos de 2024 e 2025 para o MVP Comercial
-PASTA_DOWNLOADS = "./dados_brutos_dbc"
-PASTA_FINAL_CSV = "./dados_processados_csv"
+PASTA_DOWNLOADS = "./data/raw"
+PASTA_FINAL_CSV = "./data/processed"
 
 def conectar_ftp_datasus():
     """Conecta ao servidor FTP oficial mapeado pela Quantilica"""
